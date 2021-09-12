@@ -1,0 +1,166 @@
+.bg-img11 {
+    /* The image used */
+    background-image: url('../static/img9.jpg');
+    padding-top: 5px;
+    width: 100%;
+    height: 500px;
+}
+.fontsize {
+    /* font: 35px Arial, sans-serif; */
+    text-align: left;
+    color: white;
+    padding-left: 70px;
+}
+.fontsizepadding{
+    padding-top: 100px;
+}
+/* ======================================second  */
+.fontsize2 {
+    font: 20px Arial, sans-serif;
+    text-align: left;
+    color: white;
+    padding-bottom: 25px;
+}
+.form_boarder{
+    border: inset solid 2px black;
+    padding: 100px;
+}
+.bg_second{
+    background: rgb(180, 179, 179);
+}
+.button{
+    background-color: #1404fd; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonwidth{
+    width: 100%;
+    height: 50px;
+    
+}
+
+
+.colpedding{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.vedio_second_textcolor1{
+    color: rgb(22, 22, 82);
+    text-align: left;
+}
+.button_right_side{
+    text-align: left;
+    padding-left: 70px;
+}
+.button2nd3{
+    width: 25%;
+}
+/* =======================================third */
+.third_bg_color{
+    background-color: rgb(223, 233, 218);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.vedio_third_padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* text-align: center; */
+}
+.vedio_third_textcolor1{
+    color: rgb(28, 28, 114);
+    /* text-align: center; */
+    padding-bottom: 20px;
+}
+.vedio_third_buttonwidth{
+    width: 75%;
+    height: 75px;
+    /* text-align: center;   */
+}
+.vedio_third_row_padding{ 
+    padding-bottom: 50px;
+}
+.vedio_third_button_icon {
+    background: url('../static/home-set-icon2.jpg') left center no-repeat;
+    padding-left: 15px;
+  }
+
+  /* ====================================four */
+.vedio_four_card_padding{
+    padding-left: 200px;
+    padding-right: 140px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+.vedio_four_card_textcolor{
+    color: rgb(43, 43, 133);
+  }
+.vedio_four_card_textcolor2{
+    color: rgb(114, 114, 173);
+    padding-bottom: 10px;
+  }
+
+/* ==================================================fifth */
+.vedio_fifth_bg{
+    background-color: rgb(205, 233, 247);
+}
+.vedio_fifth_text_color{
+    color: rgb(28, 28, 114);
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.vedio_fifth_text_padding{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 70px;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px;
+  }
+  
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+.flip-box-front {
+    background-color: rgb(96, 186, 228);
+    color: black;
+  }
+  
+.flip-box-back {
+    background-color: rgb(16, 130, 161);
+    color: white;
+    transform: rotateY(180deg);
+  }
+.vedio_fift_flip_box {
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
